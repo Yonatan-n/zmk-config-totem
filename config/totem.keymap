@@ -125,7 +125,7 @@ label= "NAV"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC    &kp LA(LEFT) &kp LG(F) &kp LA(RIGHT) &kp LGUI        &kp PG_UP  &kp LA(LEFT) &kp UP      &kp LA(RIGHT)     &kp LGUI       
+                &kp ESC    &kp LA(LEFT) &kp LG(F) &kp LA(RIGHT) &kp LGUI        &kp PG_UP  &kp LG(LEFT) &kp UP      &kp LG(RIGHT)     &kp LGUI       
                 &sk RALT   &sk LCTRL    &sk LSHFT   &sk LGUI   &sk LCTRL         &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DEL 
     &kp ESC     &kp LG(Z)  &kp LG(X)   &kp LG(C)   &kp TAB     &kp LG(V)        &kp RET     &kp BSPC    &kp RALT   &kp LCTRL    &kp LGUI   &kp LGUI         
                                         &trans      &trans     &trans           &trans      &mo FUN     &trans      
