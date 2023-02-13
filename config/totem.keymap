@@ -116,7 +116,7 @@ label= "NAV"                               ;
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     ESC   ┃LAlt(left)  LGUI(F)    ┃LALT(riht) ┃   LGUI   ┃   ┃ PAGE UP   ┃     HOME  ┃   AR UP   ┃     END   ┃  LGUI     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃OSM,LALT   ┃OSM,LCTRL   ┃OSM,LSHFT  ┃OSM,LGUI  ┃OSM,RALT   ┃   ┃page down  ┃ AR LEFT   ┃   AR DOWN ┃  AR RIGT  ┃ DELETE    ┃
+//             ┃OSM,LALT   ┃OSM,LCTRL   ┃OSM,LSHFT  ┃OSM,LGUI  ┃OSM,LCTRL   ┃   ┃page down  ┃ AR LEFT   ┃   AR DOWN ┃  AR RIGT  ┃ DELETE    ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃    ESC    ┃  LCTL,Z   ┃ LCTL,X    ┃ LCTL,C    ┃  TAB      ┃ LCTRL,V   ┃   ┃   enter   ┃  backspace┃  RCTRL    ┃    LALT   ┃  LGUI   ┃  LGUI     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
@@ -126,7 +126,7 @@ label= "NAV"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp ESC    &kp LA(LEFT) &kp LG(F) &kp LA(RIGHT) &kp LGUI        &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp LGUI       
-                &sk LALT   &sk LCTRL    &sk LSHFT   &sk LGUI   &sk RALT         &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DEL 
+                &sk RALT   &sk LCTRL    &sk LSHFT   &sk LGUI   &sk LCTRL         &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DEL 
     &kp ESC     &kp LG(Z)  &kp LG(X)   &kp LG(C)   &kp TAB     &kp LG(V)        &kp RET     &kp BSPC    &kp RALT   &kp LCTRL    &kp LGUI   &kp LGUI         
                                         &trans      &trans     &trans           &trans      &mo FUN     &trans      
                         >;
